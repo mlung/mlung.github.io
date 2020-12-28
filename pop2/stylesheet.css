@@ -2,13 +2,13 @@
 
     font-size: 19px;
 
-    font-family: 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     text-align: center;
 
     vertical-align: middle;
 
-    width: 410px;
+    width: 60%;
 
     margin-left: auto;
 
@@ -20,15 +20,23 @@
 
 }
 
+#leftField, #rightField, .middleField {
+    background:rgba(255,255,255,.5);
+
+    border-radius: 5px;
+
+    border: 1px solid #000;
+
+    cursor:pointer;
+}
+
 #leftField {
 
     width: 120px;
 
     height: 150px;
 
-    border: 1px solid #000;
 
-    cursor: pointer;
 
 }
 
@@ -37,11 +45,6 @@
     width: 120px;
 
     height: 150px;
-
-    border: 1px solid #000;
-
-    cursor: pointer;
-
 }
 
 .middleField {
@@ -49,40 +52,48 @@
     width: 120px;
 
     height: 70px;
-
-    border: 1px solid #000;
-
-    cursor: pointer;
-
 }
 
 a {
 
-    color: #e097d9;
-
-    text-decoration: none;
+    color: #4b768f;
+    font-weight: bold;
+    text-decoration: underline;
 
 }
 
 a:hover {
 
-    color: #8f8f8f;
+    color: #fff;
+    text-decoration: none;
 
 }
 
-body {
+#resultsTable {
+    min-width:200px; max-width:33%; font-size:18px; line-height:120%; margin-left:auto; margin-right:auto; border:2px solid #000; background:rgba(255,255,255,.7); border-radius: 5px; 
+}
 
-    width: 600px;
+#resultsTable .header {background-color: #d2c0dc; color: #fff;}
+
+#resultsTable .row td {border:1px solid #000; text-align: center;}
+
+body {
 
     margin: 0 auto;
 
-    font-family: 'Times New Roman', serif;
+    padding: auto 10%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left, #b8d5d7,#d2c0dc);
+    background-color: #b8d5d7;
 
 }
 
 h1,h2 {font-family:'audiowideregular',sans-serif}
 
-h2 .iconic {color: #646464;}
+h2 .iconic {color: #ffffff;}
+
+#poster {width: 40%; padding-top: 5px; border-radius: 10px;}
 
 @font-face {
     font-family: 'audiowideregular';
@@ -91,4 +102,15 @@ h2 .iconic {color: #646464;}
     font-weight: normal;
     font-style: normal;
 
+}
+
+.instructions {text-align: center; }
+.instructions p {width: 40%; margin: 16px auto; 
+    background:rgba(255,255,255,.3);
+border-radius: 5px;}
+
+.credit {
+    margin: 0 auto;
+    padding: 0 10px;
+    font-size: 8pt;
 }
