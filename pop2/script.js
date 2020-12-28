@@ -401,7 +401,7 @@
 
 
 
-            str += "<table id=\"resultsTable\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\">";
+            str += "<h3>POP 2/VROOM VROOM RANK</h3><table id=\"resultsTable\" cellpadding=\"0\" cellspacing=\"0\" align=\"center\">";
 
             str += "<tr class=\"header\"><td>rank<\/td><td>track<\/td><\/tr>";
 
